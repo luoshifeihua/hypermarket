@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: search
+  registry:
+    protocol: zookeeper
+    address: 10.31.131.88:2181
+  consumer:
+    timeout: 10000
+server:
+  port: 9013
+spring:
+  thymeleaf:
+    cache: false

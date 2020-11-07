@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-service/hypermarket-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-web/hypermarket-background/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-temp/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-temp/fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-web/hypermarket-index/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-api/hypermarket-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-service/hypermarket-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-web/hypermarket-search/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-temp/freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-api/hypermarket-detail-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-service/hypermarket-detail-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-temp/rabbitmq-java/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-temp/rabbitmq-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-api/hypermarket-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hypermarket-service/hypermarket-sms-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hypermarket-common/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

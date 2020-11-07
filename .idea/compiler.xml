@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-java" />
+        <module name="hypermarket-web" />
+        <module name="hypermarket-search" />
+        <module name="fastdfs" />
+        <module name="hypermarket-product-api" />
+        <module name="hypermarket-sms-api" />
+        <module name="hypermarket-sms-service" />
+        <module name="hypermarket-service" />
+        <module name="hypermarket-background" />
+        <module name="freemarker" />
+        <module name="hypermarket-detail-api" />
+        <module name="hypermarket-entity" />
+        <module name="rabbitmq-springboot" />
+        <module name="hypermarket-search-api" />
+        <module name="hypermarket-temp" />
+        <module name="hypermarket-product-service" />
+        <module name="hypermarket-index" />
+        <module name="hypermarket-common" />
+        <module name="hypermarket-mapper" />
+        <module name="hypermarket-search-service" />
+        <module name="hypermarket-detail-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fastdfs" options="-parameters" />
+      <module name="freemarker" options="-parameters" />
+      <module name="hypermarket-detail-service" options="-parameters" />
+      <module name="hypermarket-index" options="-parameters" />
+      <module name="hypermarket-search" options="-parameters" />
+      <module name="hypermarket-search-service" options="-parameters" />
+      <module name="hypermarket-sms-service" options="-parameters" />
+      <module name="rabbitmq-springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
