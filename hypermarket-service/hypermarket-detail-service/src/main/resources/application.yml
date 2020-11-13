@@ -2,7 +2,7 @@ dubbo:
   application:
     name: detail-service
   registry:
-    address: 10.31.131.88:2181
+    address: 39.102.60.120:2181
     protocol: zookeeper
   protocol:
     port: 20884
@@ -13,14 +13,14 @@ html:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/hypermarket?serverTimezone=UTC
+    url: jdbc:mysql://39.102.60.120:3306/hypermarket?serverTimezone=UTC
     username: root
     password: 123456
   rabbitmq:
-    host: 192.168.91.128
+    host: 39.102.60.120
     port: 5672
     username: wqk
-    password: 123
+    password: 123456
     virtual-host: /study
 mybatis:
   configuration:

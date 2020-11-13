@@ -3,7 +3,7 @@ dubbo:
     name: search
   registry:
     protocol: zookeeper
-    address: 10.31.131.88:2181
+    address: 39.102.60.120:2181
   consumer:
     timeout: 10000
 server:

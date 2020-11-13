@@ -191,6 +191,8 @@
         $("#chooseImage").uploadifive({
             "uploadScript":"file/upload",
             "fileObjName" : "file",
+            'buttonText': '选择图片',
+            'removeCompleted' : true,//文件上传完成之后去除进度条
             "onUploadComplete" : function (file,data) {
                 alert("data:"+data);
                 var result=JSON.parse(data);
